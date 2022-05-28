@@ -1,0 +1,24 @@
+language: python
+branches:
+  only:
+    - main
+python:
+  - 3.6
+before_install:
+  - python --version
+  - pip install -U pip
+  - pip install -U setuptools
+  - pip install -U pytest
+  - pip install pytest-cov
+  - pip install pytest-django
+  - pip install codecov
+install:
+  - pip install -r requirements.txt
+  - pip install -e ".[test]"
+script:
+  - pytest --cov=dr_scaffold/ tests/ # run tests
+  - pytest --pylint
+after_success:
+  - codecov # submit coverage
+notifications:
+  email: false
