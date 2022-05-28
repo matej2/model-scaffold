@@ -22,7 +22,6 @@ This library will help you to scaffold full **Restful API Resources** in seconds
 Installation and usage
 ----------------------
 
-For a detailed guide read `scaffold django apis like a champion <https://www.abdenasser.com/scaffold-django-apis>`_
 *******************************************************************************************************************
 
 This library assumes that you have setup your project with **Django Rest

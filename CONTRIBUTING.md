@@ -11,7 +11,7 @@ These instructions are for linux base systems. (Linux, MacOS, BSD, etc.)
 - On github interface click on `Fork` button.
 - Clone your fork of this repo. `git clone git@github.com:YOUR_GIT_USERNAME/dr_scaffold.git`
 - Enter the directory `cd dr_scaffold`
-- Add upstream repo `git remote add upstream https://github.com/Abdenasser/dr_scaffold`
+- Add upstream repo `git remote add upstream https://github.com/matej2/model-scaffold`
 
 ## Setting up your own virtual environment
 
