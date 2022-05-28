@@ -3,14 +3,13 @@ from setuptools import find_packages, setup
 with open("PYPIREADME.rst", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-NAME = "dr_scaffold"
+NAME = "model-scaffold"
 VERSION = "v2.1.2"
-DESCRIPTION = "a Django package for scaffolding django rest apis using cli"
+DESCRIPTION = "A Django package for scaffolding django rest apis using cli"
 LONG_DESCRIPTION = (long_description,)
 LONG_DESCRIPTION_CONTENT_TYPE = "text/x-rst"
-URL = "https://github.com/Abdenasser/dr_scaffold"
-AUTHOR = "abdenasser"
-AUTHOR_EMAIL = "nasser.elidrissi065@gmail.com"
+URL = "https://github.com/matej2/model-scaffold"
+AUTHOR = "Matej2"
 LICENSE = "MIT"
 PACKAGES = [
     "dr_scaffold",
@@ -46,7 +45,6 @@ setup(
     long_description_content_type=LONG_DESCRIPTION_CONTENT_TYPE,
     url=URL,
     author=AUTHOR,
-    author_email=AUTHOR_EMAIL,
     license=LICENSE,
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     install_requires=REQUIREMENTS,
